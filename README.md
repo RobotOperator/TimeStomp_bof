@@ -5,7 +5,7 @@ This is a very simple BOF that can be used with Cobalt Strike and other post exp
 While Cobalt Strike includes a native timestomp functionality, this was just an endeavor to continue learning about BOF development, C vs. C++ code integrations for those capabilities, and to make a publicly available timestomp BOF since other frameworks often don't natively include that capability but do support BOFs.
 
 ## Usage
-timestomp-bof <target-file> <source-file>
+timestomp-bof 'target-file' 'source-file'
 
 ## Compiling
 The Makefile includes the Mingw command for compiling the BOF and can be executed by running 'make' from within the src directory.
